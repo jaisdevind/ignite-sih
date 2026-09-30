@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+ENV/
+env/
+
+# Build & Output Directories
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+__pycache__/
+*.pyc
+
+# Local Environment & Data Files
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Application generated runtime data (uploads/outputs cache)
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/outputs/*
+!backend/data/outputs/.gitkeep

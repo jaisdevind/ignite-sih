@@ -1,0 +1,10 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom dark background for satellite intelligence */
+html.dark {
+  background-color: #0f172a; /* slate-900 */
+}
+

@@ -1,0 +1,37 @@
+{
+  "scenes": [
+    {
+      "id": "industrial-001",
+      "title": "Industrial Zone - Factory Complex",
+      "coordinates": "28.6139 N, 77.2090 E",
+      "acquisition_date": "2024-03-15",
+      "source_type": "Landsat-8 TIRS (Thermal Infrared Sensor)",
+      "image_path": "/static/demo/industrial.png",
+      "thermal_info": "Band 10 calibrated temperature range 280-320 K",
+      "hotspots": "Two hotspots detected (max 322 K) near furnace area",
+      "land_context": "Mixed industrial and peri-urban land use"
+    },
+    {
+      "id": "forest-001",
+      "title": "Forest Canopy - Protected Reserve",
+      "coordinates": "26.8467 N, 80.9462 E",
+      "acquisition_date": "2024-04-22",
+      "source_type": "Sentinel-2 MSI (SWIR) with simulated thermal band",
+      "image_path": "/static/demo/forest.png",
+      "thermal_info": "Derived land-surface temperature 285-310 K",
+      "hotspots": "No significant hotspots; uniform cool canopy",
+      "land_context": "Dense tropical forest with river tributary"
+    },
+    {
+      "id": "agri-001",
+      "title": "Agricultural Field - Wheat Crop",
+      "coordinates": "29.9792 N, 77.5710 E",
+      "acquisition_date": "2024-05-08",
+      "source_type": "PlanetScope (3-m) simulated thermal band",
+      "image_path": "/static/demo/agri.png",
+      "thermal_info": "Surface temperature 290-315 K",
+      "hotspots": "One localized hotspot (317 K) near irrigation pump",
+      "land_context": "Rural agricultural landscape with irrigation canals"
+    }
+  ]
+}
