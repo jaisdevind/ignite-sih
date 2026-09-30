@@ -56,6 +56,17 @@ app.add_middleware(
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 
 
+@app.get("/")
+async def root():
+    return {
+        "status": "online",
+        "service": "IGNITE Earth-Observation Backend",
+        "version": "0.1.0",
+        "health": "/health",
+        "docs": "/docs"
+    }
+
+
 @app.get("/health")
 async def health_check():
     return {"status": "ok", "service": "IGNITE Backend"}
